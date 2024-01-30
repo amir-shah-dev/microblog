@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "microblog"
+version = "0.1.0"
+description = "A small microblogging platform with some cool features"
+authors = ["amir-shah-dev <send@amir-shah.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Flask = "^3.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
